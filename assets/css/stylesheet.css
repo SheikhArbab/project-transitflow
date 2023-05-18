@@ -1206,8 +1206,88 @@ font-size: 14px;
 }
 
 
+.home-form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.home-form>input{
+    background-color: transparent;
+    padding: 14px 12px ;
+    width: 340px;
+    outline: none;
+    border: 1px solid #4E5683;
+    margin: 12px;
+    color: white;
+}
+.home-form>input:nth-child(5){
+  height: 300px;
+  width: 100%;
+  padding-top: 0%;
+  padding-bottom: 230px;
+}
+.home-form>button{
+margin: 12px;
+}
 
 
+.plane>.container>.row>.col-md-6{
+    height: 500px;
+    position: relative;
+}
+.plane>.container>.row>.col-md-6>figure{
+    width: 90%;
+    background:url(../imgs/home/plane2.png);
+    background-size: cover;
+    height: 80%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    position: absolute;
+    top: 10%;
+    right: -12%;
+    z-index: 11;
+}
+.plane>.container>.row>.col-md-6>figure>a>img{
+    width: 100%;
+}
+
+.plane>.container>.row>.col-md-6>figure>a{
+width: 200px;
+}
+.plane>.container>.row>.map{
+
+background: url(../imgs/home/Pattern.png);
+background-color:#F4F4F4 ;
+background-size: 100%;
+padding-left: 90px;
+padding-top: 30px;
+height: fit-content;
+padding-bottom: 80px;
+}
+
+
+.map-inner>.div{
+    width: 200px;
+    display: block;
+    text-decoration: none;
+}
+.map-inner  p{
+    transition: all .4s ease;
+}
+.map-inner>.div:hover p{
+ color: var(--primary1);
+}
+
+.map-inner>.div>figure{
+    width: 50px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+}
+.map-inner>.div>figure>img{
+ width: 100%;
+}
 
 
 
@@ -1964,6 +2044,28 @@ font-size: .6rem;
 
 /* // `md` applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
+
+
+
+
+
+
+    .plane>.container>.row>.col-md-6>figure{
+     
+        right: 0%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 
     main .row .col-md-5 .right .inner{
         width:90% !important;
