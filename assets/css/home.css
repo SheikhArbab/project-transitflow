@@ -1,0 +1,192 @@
+/* ------------------------home------------------- */
+
+.we-do-content {
+    height: fit-content;
+}
+
+.we-do-content figure {
+    width: 150px;
+    padding-right: 20px;
+    margin-right: 8px;
+    border-right: 2px solid var(--paragrah-font-color);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.we-do-content-r a {
+    color: var(--primary2);
+    font-weight: bold;
+    transition: all .2s ease-in;
+}
+
+.we-do-content-r p {
+    color: var(--paragrah-font-color);
+}
+
+.we-do-content-r a:hover {
+    color: var(--primary1);
+}
+
+.we-do-content figure>img {
+    width: 100%;
+}
+
+.we-do-content figure>.plane {
+    width: 150%;
+
+}
+
+.why {
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+
+.why-bg {
+    background-image: linear-gradient(-1deg, #032c5f92 30%, #032c5f4c 50%), url(../imgs/home/banner.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    position: relative;
+}
+
+.why .why-bg .container {
+    position: absolute;
+    width: 100%;
+    background-color: #fff;
+    bottom: -190%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: fit-content;
+}
+
+.why .why-bg .container .row .col-md-6 h1 {
+    color: var(--primary2);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.why .why-bg .container .row .col-md-6 p {
+    color: var(--paragrah-font-color);
+    font-weight: 500;
+}
+
+.why .why-bg .container .row .right>figure {
+    position: relative;
+    width: 100%;
+}
+
+.why .why-bg .container .row .right>figure>img {
+    width: 100%;
+}
+
+.why .why-bg .container .row .right figure>figure {
+    background-color: white;
+    padding: 5%;
+    position: absolute;
+    left: -18%;
+    bottom: -19%;
+    width: 70%;
+}
+
+.why .why-bg .container .row .col-md-6 figure>figure>img {
+    width: 100%;
+}
+
+.why .why-bg .container .row .col-md-6 ul {
+    padding: 6px 0;
+    border: 1px solid #D5D5D5;
+    margin-top: 10px;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.why .why-bg .container .row .col-md-6 ul li h1 {
+    font-size: 40px;
+}
+
+
+  @media only screen and (min-width: 769px) {
+  }
+
+
+/* ------------------------home------------------- */
+
+/* ----------------------home-transport---------------------- */
+
+.home-transport  {
+   position: relative;
+   height: 1000px !important;
+   display: flex;
+   align-items: end;
+}
+.home-transport .container {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.home-transport .container .transport-cards ul li figure{
+    width: 200px;
+    height: 320px;
+    background: linear-gradient(0deg, #091242 14.34%,
+     rgba(60, 60, 60, 0) 43.86%), url(../imgs/home/truck.jpg);
+     
+background-blend-mode: multiply;
+    position: relative;
+}
+.home-transport .container .transport-cards ul li:nth-child(2) figure{
+    background: linear-gradient(0deg, #091242 14.34%,
+     rgba(60, 60, 60, 0) 43.86%), url(../imgs/home/team-card.jpg);
+}
+.home-transport .container .transport-cards ul li:nth-child(3) figure{
+    background: linear-gradient(0deg, #091242 14.34%,
+     rgba(60, 60, 60, 0) 43.86%), url(../imgs/home/truck2.jpg);
+}
+.home-transport .container .transport-cards ul li:nth-child(4) figure{
+    background: linear-gradient(0deg, #091242 14.34%,
+     rgba(60, 60, 60, 0) 43.86%), url(../imgs/home/card-container.jpg);
+}
+.home-transport .container .transport-cards ul li:nth-child(5) figure{
+    background: linear-gradient(0deg, #091242 14.34%,
+     rgba(60, 60, 60, 0) 43.86%), url(../imgs/home/card-ship.jpg);
+}
+.home-transport .container .transport-cards ul li figure>.card-inner{
+  position: absolute;
+  left: 8%;
+  bottom: 5%;
+}
+.home-transport .container .transport-cards ul li figure>.card-inner p{
+color: var(--primary1);
+font-weight: 600;
+font-size: 10px;
+}
+.home-transport .container .transport-cards ul li figure>.card-inner h6{
+font-weight: 600;
+font-size: 14px;
+}
+
+.home-transport-bottom{
+    background: linear-gradient(95deg, var(--gradient1) 
+    -1.19%, var(--gradient2) 57.78%, var(--gradient3) 115.08%);
+    width: 100%;
+    height: 400px;
+}
+
+.home-transport-bottom>div{
+   width: 100%;
+   height: 100%;
+}
+
+
+
+
+
+
+
+
+
+/* ----------------------home-transport---------------------- */
+
