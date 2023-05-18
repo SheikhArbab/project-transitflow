@@ -1015,6 +1015,10 @@ color: white;
 }
 
 
+.home-testimonial{
+    background-color: #fff;
+}
+
 
 
 /* ------------------------testimonial------------------- */
@@ -1064,26 +1068,23 @@ color: white;
 
 .why {
     width: 100%;
-    height: 800px;
+    height: fit-content;
     position: relative;
+    overflow: hidden;
 }
 
 .why-bg {
-    background-image: linear-gradient(-1deg, #032c5f92 30%, #032c5f4c 50%), url(../imgs/home/banner.jpg);
     width: 100%;
-    height: 500px;
-    background-size: cover;
+    height: fit-content;
     position: relative;
+    background:  url(../imgs/home/banner.jpg) ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 150px;
 }
 
 .why .why-bg .container {
-    position: absolute;
-    width: 100%;
     background-color: #fff;
-    bottom: -190%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: fit-content;
 }
 
 .why .why-bg .container .row .col-md-6 h1 {
